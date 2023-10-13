@@ -19,7 +19,6 @@ app.get("/", function (req, res) {
 });
 
 
-// API-Endpunkt für den Timestamp Microservice
 app.get('/api/:date?', function (req, res) {
   const { date } = req.params;
 
